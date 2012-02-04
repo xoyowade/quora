@@ -34,11 +34,6 @@ $ cp config/setting.yml.default config/setting.yml
 $ cp config/redis.yml.default config/redis.yml
 $ cp config/zomet.yml.default config/zomet.yml
 
-h3. If you have Quora project old data in the Mongodb, you need to run this script to index the old data for search
-
-pre. 
-$ rake search:index
-
 h3. After, run Rails Server
 
 pre. 
