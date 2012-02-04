@@ -1,4 +1,4 @@
-Quora clone write in Ruby on Rails.
+JinshanQA, based on the Quora clone by huacnlee.
 
 h2. Requirements
 
@@ -9,7 +9,6 @@ Install there software at first
 * MongoDB 1.8
 * Redis 2.2.2
 * Node.js 0.4.5
-* Coreseek 4.0.1 _(In English content, you can use Sphinx 1.10)_
 * Git 
 
 h2. Installation
@@ -23,7 +22,7 @@ $ sudo service mongodb start
 h3. Download Quora source code from Github
 
 pre. 
-$ git clone git://github.com/huacnlee/quora.git
+$ git clone git://github.com/xoyowade/quora.git
 
 h3. Configure Quora
 
@@ -34,14 +33,6 @@ $ cp config/mongoid.yml.default config/mongoid.yml
 $ cp config/setting.yml.default config/setting.yml
 $ cp config/redis.yml.default config/redis.yml
 $ cp config/zomet.yml.default config/zomet.yml
-$ cp config/sphinx.yml.default config/sphinx.yml
-
-h3. Create Sphinx config files and index the database to Sphinx _(Before here, you need install Coreseek first.)_
-  
-pre. 
-$ rake mongoid_sphinx:configure
-$ rake mongoid_sphinx:index
-$ rake mongoid_sphinx:start
 
 h3. If you have Quora project old data in the Mongodb, you need to run this script to index the old data for search
 
