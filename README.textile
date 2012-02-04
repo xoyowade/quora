@@ -1,4 +1,4 @@
-JinshanQA, based on the Quora clone by huacnlee.
+JinshanQA, based on "者也":https://github.com/huacnlee/quora, a Quora clone.
 
 h2. Requirements
 
@@ -42,6 +42,6 @@ $ rails s
 Then, open your browser, points to http://127.0.0.1:3000
 That is it, enjoy yourself.
 
-If you have any Issues or Questions, please send message to "Quora Issues":https://github.com/huacnlee/quora/issues on Github.
+If you have any Issues or Questions, please send message to "Quora Issues":https://github.com/xoyowade/quora/issues on Github.
 
 
